@@ -28,7 +28,7 @@ def ClickOn(X,Y): #This function clicks on position x,y
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
  
 
-def TakeyTimey(X,Y,start):
+def TakeyTimey(X,Y,start): #function tracks the speed black squares pass by at
     if pyautogui.pixel(X,Y) == (0,0,0) and start==0:
             start=time.time()
     
@@ -54,10 +54,10 @@ while keyboard.is_pressed(' ') == False:
     if pyautogui.pixel(x4,y)[0] == 0:    
         ClickOn(x4,y+buf)
 
-    TakeyTimey(518,575,start1)
-    TakeyTimey(624,575,start2)
-    TakeyTimey(724,575,start3)
-    TakeyTimey(828,575,start4)
+    #TakeyTimey(518,575,start1)
+    #TakeyTimey(624,575,start2)
+    #TakeyTimey(724,575,start3)
+    #TakeyTimey(828,575,start4)
 
     
     #print(pyautogui.position()) 
