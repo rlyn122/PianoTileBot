@@ -1,3 +1,5 @@
 This bot plays piano tiles by clicking on pixels of the screen when it sees black.
 
-Trying to optimize code because python runs too slow and doesn't get super high scores.
+I am working on trying to optimize code because python runs too slow and doesn't get super high scores. 
+
+Taking the time in the while loop causes the program to run too slow and miss the squares.
