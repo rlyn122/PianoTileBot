@@ -6,7 +6,9 @@ import win32api, win32con
 # Four positions for four lanes
 #played on https://lagged.com/en/g/magic-tiles
 
+
 buf=0
+#pixel positions of black squares on screen (changes depending on device)
 x1=788
 y=582
 x2=898
